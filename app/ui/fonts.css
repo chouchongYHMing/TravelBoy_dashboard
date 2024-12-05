@@ -1,0 +1,11 @@
+/* app/ui/fonts.css */
+@font-face {
+    font-family: 'Smiley Sans';
+    src: url('/fonts/SmileySans-Oblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: oblique;
+  }
+
+  .smiley {
+    font-family: 'Smiley Sans', sans-serif;
+  }

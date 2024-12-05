@@ -1,5 +1,7 @@
 import type { Config } from 'tailwindcss';
 
+
+
 const config: Config = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -10,6 +12,9 @@ const config: Config = {
     extend: {
       gridTemplateColumns: {
         '13': 'repeat(13, minmax(0, 1fr))',
+      },
+      backgroundImage: {
+        'bgGAOPO': "url('public/img/bgGAOPO.jpg')",
       },
       colors: {
         blue: {
