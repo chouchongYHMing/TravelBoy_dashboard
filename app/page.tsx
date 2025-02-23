@@ -1,6 +1,6 @@
 import MyLogo from '@/app/ui/mylogo';
-import { cards } from 'public/cardData';
-import Card from 'app/card';
+import { cards } from '../public/cardData';
+import Card from '../app/ui/card';
 import '../app/ui/fonts.css';
 
 export default function Page() {
@@ -30,5 +30,5 @@ export default function Page() {
 }
 
 
-var pageCar = 'flex flex-wrap justify-start items-start bg-gray-50 rounded-lg shadow-2xl overflow-y-auto max-h-[80vh] max-w-3xl';
+var pageCar = 'flex flex-wrap justify-start items-start bg-gray-50 rounded shadow-2xl overflow-y-auto max-h-[80vh] max-w-3xl';
 var pageAIchat = 'flex items-center justify-center p-6 md:w-2/5 md:px-28 md:py-12 bg-white border border-gray-300 rounded shadow-2xl';
