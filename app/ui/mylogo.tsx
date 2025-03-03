@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import '@/app/ui/fonts.css';
 
 export default function MyLogo() {
   return (
@@ -10,7 +11,7 @@ export default function MyLogo() {
         height={48}
         className="w-12 h-12" // 确保图片具有适当的尺寸类
       />
-      <a style={{ fontSize: '4vw' }} className="text-white smiley">
+      <a style={{ fontSize: '3vw' }} className="text-white smiley">
         TravelBoy
       </a>
     </div>

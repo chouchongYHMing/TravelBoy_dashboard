@@ -1,7 +1,7 @@
 export const cards = [
     {
       title: "article_1:周杰伦 & AE86",
-      description: "This is an example description for Card 1.",
+      description: "该项目源于童年对《头文字D》电影的喜爱，此篇介绍“AE86”。",
       imageUrl: '/img/card1.jpeg',
       link: "cardlink/article_1"
     },
@@ -11,6 +11,7 @@ export const cards = [
         imageUrl: "",
         link: ""
       },
+      
   
       
     // 更多卡片...

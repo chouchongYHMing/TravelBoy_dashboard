@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { cards } from '@/public/cardData';
 
 interface CardProps {
     title: string;
@@ -18,4 +17,4 @@ interface CardProps {
     );
   }
 
-  var cardStyle = 'flex flex-col flex-initial justify-center m-7 rounded-lg bg-white p-4 drop-shadow-lg transition duration-300 ease-in-out hover:shadow-md w-80 aspect-ratio-[4/6]'                       
+  var cardStyle = 'flex flex-col flex-initial justify-center m-7 rounded-lg bg-white p-4 drop-shadow-xl transition duration-300 ease-in-out hover:shadow-md w-80 aspect-ratio-[4/6]'                       
