@@ -5,7 +5,7 @@ import Chatinput from '@/app/ui/chat-input';
 
 export default function Page() {
   return (
-    <main className="flex min-h-screen flex-col p-6 bg-[url('public/img/bgGAOPO_blurred.jpg')] bg-cover">
+    <main className="flex min-h-screen flex-col p-6 bg-[url('/img/bgGAOPO_blurred.jpg')] bg-cover">
 
       <div className="flex h-20 shrink-0 items-end rounded-lg bg-[#2ad7bd] p-4 md:h-27 ">
         <MyLogo/>

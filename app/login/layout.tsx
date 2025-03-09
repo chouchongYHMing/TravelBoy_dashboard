@@ -10,9 +10,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <main className="flex flex-wrap justify-center items-center flex-col p-6">
                 {children}
             </main>
-            <footer className="p-4 bg-[#2ad7bd] text-white text-center">
-                Footer content here
-            </footer>
+     
         </div>
     );
 }

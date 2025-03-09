@@ -6,10 +6,10 @@ export const cards = [
       link: "cardlink/article_1"
     },
     {
-        title: "Card 2",
-        description: "This is an example description for Card 2.",
-        imageUrl: "",
-        link: ""
+        title: "article_2:冠希哥的RX-7 FC3S",
+        description: "'除非你能克服这个问题，否则，你斗不过我的FC的。'",
+        imageUrl: "/img/FC.jpg",
+        link: "cardlink/article_2"
       },
       
   
