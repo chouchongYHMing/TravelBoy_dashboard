@@ -18,14 +18,13 @@ export default function LoginPage() {
     });
     
     console.log("signIn result:", result);
-    // 可能返回例如：
-    // { error: "CredentialsSignin", status: 200, ok: true, url: null }
+   
 
     if (result?.error) {
       alert("登录失败，请检查账号和密码");
     } else {
-      alert("登录成功（测试版）");
-      //    router.push("/");
+      alert("登录成功");
+      router.push("/");
     }
   };
 

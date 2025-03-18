@@ -3,15 +3,13 @@ import { cards } from '@/public/cardData';
 import Card from '@/app/ui/card';
 import Chatinput from '@/app/ui/chat-input';
 
+
 export default function Page() {
   return (
     <main className="flex min-h-screen flex-col p-6 bg-[url('/img/bgGAOPO_blurred.jpg')] bg-cover">
 
       <div className="flex h-20 shrink-0 items-end rounded-lg bg-[#2ad7bd] p-4 md:h-27 ">
         <MyLogo/>
-          <b className="text-white text-sm">
-          .made by Omin
-          </b>
       </div>
  
       <div className="mt-4 flex grow flex-col gap-4 md:flex-row">
