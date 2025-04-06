@@ -1,5 +1,5 @@
 "use client";
-import Article from 'app/cardlink/article_1/article_1.mdx';
+import Article from 'app/cardlink/article_2/article_2.mdx';
 
 export default function Page() {
     return (

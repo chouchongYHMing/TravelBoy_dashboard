@@ -1,8 +1,7 @@
 import MyLogo from '@/app/ui/mylogo';
 import { cards } from '@/public/cardData';
 import Card from '@/app/ui/card';
-import Chatinput from '@/app/ui/chat-input';
-
+import Chat from '@/app/chat/chatpage';
 
 export default function Page() {
   return (
@@ -19,10 +18,8 @@ export default function Page() {
           ))}
         </div>
 
-        <div className={pageAIchat}>
-          <Chatinput/>
-          AI chat model show here
-        </div>
+          <Chat />
+
       </div>
     </main>
   );
@@ -30,4 +27,3 @@ export default function Page() {
 
 
 var pageCar = 'flex flex-wrap justify-start items-start bg-white border border-gray-300 rounded shadow-2xl overflow-y-auto max-h-[80vh] max-w-3xl';
-var pageAIchat = 'flex flex-col-reverse flex-1 bg-white border border-gray-300 rounded shadow-2xl max-h-[80vh]';

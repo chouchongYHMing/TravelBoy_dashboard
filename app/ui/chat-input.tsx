@@ -2,13 +2,17 @@
 
 import { useState } from 'react';
 
-export default function Chatinput() {
+interface ChatInputProps {
+  onSend: (message: string) => void;
+}
+
+export default function ChatInput({ onSend }: ChatInputProps) {
   const [message, setMessage] = useState('');
 
   const handleSend = () => {
     if (message.trim()) {
       console.log('发送消息：', message);
-      // 此处可以添加调用发送 API 或其他逻辑
+      onSend(message);
       setMessage('');
     }
   };
@@ -21,7 +25,6 @@ export default function Chatinput() {
         placeholder="此处输入文本..."
         className={textStyle}
       />
-      {/* 发送按钮：位于右下角 */}
       <button
         onClick={handleSend}
         className={buttonStyle}
